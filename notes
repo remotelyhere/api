@@ -12,4 +12,5 @@ git push -u origin main
  django-admin start project config .
  python manage.py startapp books
  python manage.py migrate
+ python manage.py createsuperuser
 
