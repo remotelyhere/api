@@ -1,0 +1,15 @@
+echo "# api" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/remotelyhere/api.git
+git push -u origin main
+ 
+ pipenv install django~=3.10
+ pipenv shell
+
+ django-admin start project config .
+ python manage.py startapp books
+ python manage.py migrate
+
